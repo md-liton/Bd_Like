@@ -1,0 +1,69 @@
+/* WALLET HEADING PART START */
+#wallet_heading{
+    padding: 20PX 0;
+    background: #5CB8E4;
+} 
+.wallet_heading_main{
+    .wallet_inf{
+        display: flex;
+        align-items: center;
+    }
+}
+/* WALLET HEADING PART END */ 
+
+
+/* WALLET DETAILS PART START  */
+.details_main{
+    .details_inf{
+        background: #fefd;
+        padding: 50px 0;
+        margin-top: 20px;
+        .icon{
+            height: 80px;
+            width: 80px;
+            border: 1px solid #003865;
+            border-radius: 50px;
+            font-size: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #003865;
+        }
+    }
+    .inf{
+        p{
+            padding: 15px 100px;
+            font-size: 20px;
+            font-weight: 400px;
+            color: #003865;
+        }
+        button{
+            padding: 10px 80px;
+            border: none;
+            background: linear-gradient(#00D7FF,#5800FF);
+            color: #fff;
+            font-size: 20px;
+            font-weight: 400;
+            border-radius: 5px;
+        }
+    }
+    .history{
+        padding: 20px 0;
+        span{
+            font-size: 30px;
+            font-weight: 700;
+            color: #0F3D3E;
+            border-bottom: 1px solid #0F3D3E;
+            display: block;
+        }
+    }
+    .withdraw_amount{
+        label{
+            font-weight: 700;
+        }
+        input{
+            padding:0 10px;
+        }
+    }
+} 
+/* WALLET DETAILS PART END  */ 

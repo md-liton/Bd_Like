@@ -1,0 +1,109 @@
+/* ME HEADER PART START */
+#me_head{
+    background: #002B5B;
+    padding: 10px 0;
+}
+.me_head_main{
+    .img_number{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        .profile{
+            width: 100px;
+            height: 100px;
+            border-radius: 50px;
+            overflow: hidden;
+        }
+        .number{
+            h5{
+                color: #fff;
+            }
+        }
+    }
+    .icon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 30px 0;
+        a{
+            font-size: 20px;
+            color: #fff;
+        }
+    } 
+} 
+/* ME HEADER PART END */ 
+
+/* VIP MEMBER PART START */
+#vip_member{
+    padding-top: 10px;
+}
+.vip_member_main{
+    .vip_item{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        background: #256D85;
+        padding: 10px 0;
+        color: #7DCE13;
+    }
+} 
+/* VIP MEMBER PART END */ 
+
+/* BALANCE PART START */
+#balance{
+    padding: 10px 0 10px 30px;
+}
+.balance_main{
+    .balance_inf{
+        p{
+            font-size: 15px;
+            font-weight: 400;
+        }
+        h4{
+            font-size: 30px;
+            font-weight: 700px;
+        }
+        .balance_btn{
+            button{
+                padding: 10px 30px;
+                border: 1px solid #FA2FB5;
+                border-radius: 50px;
+                color: #FA2FB5;
+                transition: all linear .3s;
+                margin-right: 10px;
+                text-transform: uppercase;
+                background: transparent;
+                &:hover{
+                    background: linear-gradient(#FA2FB5,#B93160);
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+/* BALANCE PART END */ 
+
+/* SERVICE PART START */
+#service{
+    padding: 60px 0;
+} 
+.service_main{
+    .service_item{
+        cursor: pointer;
+        padding: 50px 0;
+        transition: all linear .3s;
+        &:hover{
+            background: #AFB4FF;
+        }
+        a{
+            font-size: 30px;
+            color: #000;
+        }
+        p{
+            font-size: 20px;
+            font-weight: 700;
+        }
+    }
+}
+/* SERVICE PART END */ 

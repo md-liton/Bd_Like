@@ -1,0 +1,211 @@
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .count_main .count_item {
+        padding: 23px;
+    }
+    .count_main .count_item p {
+        font-size: 15px;
+    }
+    /* record part start */
+    .heading_main .heading_item a {
+        font-size: 22px;
+    }
+    /* record part end */
+}
+
+@media (max-width: 575.98px) {
+    /* INDEX PART START */
+    #icon {
+        padding: 0;
+    }
+    .icon_main .icon_div .icon_item {
+        padding: 10px 0;
+    }
+    .icon_main .icon_div .icon_item p {
+        font-size: 10px;
+    }
+    .icon_main .icon_div .icon_item a {
+        font-size: 20px;
+    }
+    /* count part start */
+    #count {
+        padding: 0;
+    }
+    .count_main{
+        padding-bottom: 10px;
+    }
+    .count_main h3 {
+        padding: 10px 0;
+        font-size: 15px;
+    }
+    .count_main .count_item {
+        padding: 0;
+    }
+    .count_main .count_item p {
+        font-size: 15px;
+        margin-bottom: 0;
+        padding-top: 10px;
+    }
+
+    /* count part end */
+
+    /* task part start */
+    .task_main{
+        text-align: auto;
+    }
+    /* task part end */
+
+    /* bank part start */
+    #bank_name {
+        padding: 0;
+    }
+    .bank_name_main .bank_name_item {
+        padding: 10px 0;
+    }
+    .bank_name_main .bank_name_item p{
+        margin-bottom: 0;
+    }
+    .bank_name_main .bank_name_item input {
+        padding: 0;
+    }
+    /* bank part end */
+
+/* facebook part start */
+.social_main {
+    padding: 0;
+}
+#member {
+    padding:0;
+}
+.member_main .member_item {
+    justify-content: space-between;
+}
+.member_main .member_item .member_inf .m_span .tk {
+    font-size: 18px;
+    padding-top: 10px;
+}
+/* facebook part end */
+
+/* Task part start */
+.task_item {
+    padding-top: 20px;
+}
+.task_item p{
+    margin-bottom: 0;
+}
+/* Task part End */
+
+    /* INDEX PART END */
+
+    /* Profile page start */
+    .service_main .service_item {
+        padding: 20px 0;
+    }
+    .service_main .service_item p {
+        font-size: 13px;
+    }
+    /* Profile page end */
+
+    /* record part start */
+    .heading_main .heading_item a {
+        font-size: 16px;
+    }
+    #record_item {
+        padding: 0;
+    }
+    .record_item_main .record_item_full .record_item_inf .link_copy .link span {
+        font-size: 14px;
+    }
+    .record_item_main .record_item_full .record_item_inf p {
+        margin-bottom: 8px;
+        font-size: 17px;
+        padding-left: 20px;
+    }
+    .record_item_main .record_item_full .sil {
+        top: 13%;
+        width: 95px;
+    }
+    /* record part end */
+
+    /* My Wallete start */
+    .details_main .inf p {
+        padding: 15px;
+    }
+    /* My Wallete end */
+
+
+}
+
+@media (max-width: 400px) {
+    .count_main .count_item {
+        min-height: 115px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    /* Profile page start */
+    .balance_main .balance_inf .balance_btn button {
+        margin-bottom: 10px;
+    }
+    /* Profile page end */
+
+    /* record part start */
+    .heading_main .heading_item a {
+        font-size: 14px;
+    }
+    /* record part end */
+}
+
+@media (max-width: 320px) {
+    /* Profile page start */
+    .me_head_main .img_number .profile {
+        min-width: 60px;
+        max-height: 60px;
+    }
+    .me_head_main .icon {
+        padding: 11px 0;
+    }
+    /* Profile page end */
+
+
+    /* facebook part start */
+    .social_item a {
+        font-size: 14px;
+    }
+    .social_main .social_item a::after {
+        width: 80%;
+        bottom: 8PX;
+    }
+    .member_main .member_item {
+        padding: 10px;
+    }
+    .member_main .member_item p {
+        font-size: 13px;
+    }
+    .member_main .member_item span {
+        font-size: 13px;
+    }
+    /* facebook part end */
+
+    /* my wallet part start */
+    .details_main .details_inf {
+        padding: 5px 0;
+        margin-top: 0;
+    }
+    /* my wallet part end */
+    /* vip part start */
+    .invite_main .icon_main .invite_icon {
+        font-size: 25px;
+        height: 80px;
+        width: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    /* vip part end */
+
+
+    /* record part start */
+
+    /* record part end */
+
+}

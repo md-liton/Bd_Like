@@ -1,0 +1,29 @@
+/* BANK NAME PART START */
+#bank_name{
+    padding: 60PX 0;
+}
+.bank_name_main{
+    .bank_name_item{
+        padding: 30px 0;
+        p{
+            font-size: 20px;
+            font-weight: 700;
+        }
+        input{
+            padding: 10px 0;
+            border: none;
+            border-bottom: 1px solid #000;
+        }
+    }
+    .bank_btn{
+        padding: 30px 0;
+        button{
+            padding: 10px 100px;
+            background: linear-gradient(#5CB8E4,#277BC0);
+            border: none;
+            color: #fff;
+            border-radius: 5px;
+        }
+    }
+}
+/* BANK NAME PART END */ 

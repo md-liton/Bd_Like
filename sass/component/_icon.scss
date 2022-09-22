@@ -1,0 +1,25 @@
+/* ICON PART START */
+#icon{
+    padding: 40px 0;
+}
+.icon_main{
+    .icon_div{
+        display: flex;
+        justify-content: space-between;
+        .icon_item{
+            padding: 10px 20px;
+            border-radius: 10px;
+            text-align: center;
+            cursor: pointer;
+            transition: all linear .3s;
+            &:hover{
+                background: #D2DAFF;
+            }
+            a{
+                font-size: 50px;
+                color: #000;
+            }
+        }
+    }
+}
+/* ICON PART END */ 

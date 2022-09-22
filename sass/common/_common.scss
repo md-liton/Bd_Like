@@ -1,0 +1,33 @@
+/* COMMON CSS START */
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul,ol{
+    list-style: none;
+} 
+.line{
+    height: 3px;
+    width: 100%;
+    background: #D2DAFF;
+}
+html,body{
+    overflow-x: hidden;
+}
+.icon_item.active{
+    color: #0d6efd !important;
+}
+.icon_item.active a{
+    color: #0d6efd !important;
+}
+.icon_item.active p{
+    color: #0d6efd !important;
+}
+/* COMMON CSS END */ 

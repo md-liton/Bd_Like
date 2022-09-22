@@ -1,0 +1,35 @@
+/* COUNT PART START */
+#count{
+    padding: 60px 0;
+} 
+.count_main{
+    h3{
+        padding: 20px 0;
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .count_item{
+        padding: 30px;
+        border-bottom: 1px solid #777;
+        border-right: 1px solid #777;
+        &:nth-child(3){
+            border-right: none;
+            border-bottom: none;
+        }
+        p{
+            font-size: 20px;
+            font-weight: 400
+        }
+        h3{
+            font-size: 20px;
+            font-weight: 700;
+        }
+    }
+    .count_item3,.count_item6,.count_item9{
+        border-right: none;
+    }
+    .count_item7,.count_item8,.count_item9{
+        border-bottom: none;
+    }
+}
+/* COUNT PART END */ 

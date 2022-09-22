@@ -1,0 +1,113 @@
+/* FACEBOOK PART START */
+.facebook_banner_main{
+    .bg_img{
+        picture{
+            img{
+                border-radius: 20PX;
+            }
+        }
+    }
+}
+/* FACEBOOK PART END */ 
+/* SOCIAL PART START */
+.social_main{
+    padding: 60px 0;
+    .social_item{
+        padding: 10px 0;
+        background: #72FFFF;
+        position: relative;
+        text-align: center;
+        transition: all linear .3s;
+        &:hover{
+            a{
+                color: #e4775c ;
+                transition: all linear .3S;
+                &::after{
+                    opacity: 1;
+                    visibility: visible;
+                    color: #5CB8E4;
+                }
+            }
+        }
+        a{
+            color: #222;
+            &::after{
+                position: absolute;
+                content: "";
+                height: 2px;
+                width: 50%;
+                background: #5CB8E4;
+                left: 50%;
+                transform: translateX(-50%);
+                bottom: -20PX;
+                opacity: 0;
+                visibility: hidden;
+            }
+        }
+    }
+}
+/* SOCIAL PART END */ 
+
+/* MEMBER PART START */
+#member{
+    padding: 60px 0;
+    // background: #AFB4FF;
+}
+.member_main{
+    .member_item{
+        padding: 20px;
+        display: flex;
+        gap: 30px;
+        border: 1px solid #000;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        .member_img{
+            .icon{
+                height: 30px;
+                width: 30px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: #0096FF;
+                border-radius: 5px;
+                a{
+                    color: #fff;
+                }
+                .youtube{
+                    background: red;
+                    font-size: 20px;
+                    padding: 0 5px;
+                    border-radius: 5px;
+                }
+            }
+        }
+        .member_inf{
+            p{
+                span{
+                    color: #FBB454;
+                }
+            }
+            .m_span{
+                display: flex;
+                justify-content: space-between;
+                .tk{
+                    font-size: 30px;
+                    font-weight: 700;
+                }
+            }
+            .member_btn{
+                display: flex;
+                justify-content: end;
+                button{
+                    padding: 10px;
+                    border: none;
+                    border-bottom: 3px solid #FBB454;
+                    border-radius: 5px;
+                    color: #fff;
+                    background: linear-gradient(#FBB454,#FAEA48);
+                }
+            }
+        }
+    }
+}
+/* MEMBER PART END */ 

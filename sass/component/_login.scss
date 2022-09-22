@@ -1,0 +1,53 @@
+/* LOG IN PART START */
+.login_main{
+    padding: 80px 0;
+    .login_inf{
+        padding: 15px 0;
+        background: #B1B2FF;
+        h5{
+            padding: 20px 0;
+            font-size: 30px;
+            font-weight: 700;
+        }
+        .mobile_password{
+                .number{
+                    input{
+                        width: 80%;
+                        padding: 10px;
+                        border: none;
+                    }
+                }
+                .password{
+                    padding: 20px 0;
+                    input{
+                        width: 80%;
+                        padding: 10px;
+                        border: none;
+                    }
+                }
+                .btn{
+                    border: none;
+                    .login{
+                        padding: 5px 50px;
+                        border: none;
+                        background: linear-gradient(#8758FF,#6F38C5);
+                        color: #fff;
+                        font-size: 20px;
+                        font-weight: 400px;
+                    }
+                    .sing{
+                        padding: 10px 0;
+                        a{
+                            color: #000;
+                        }
+                    }
+                    .forget{
+                        a{
+                            color: #000;
+                        }
+                    }
+                }
+        }
+    }
+}
+/* LOG IN PART END */ 

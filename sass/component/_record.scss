@@ -1,0 +1,99 @@
+/* HEADING PART START */
+#heading{
+    padding: 20px 0;
+    background: #ADDDD0;
+}
+.heading_main{
+    .heading_item{
+        text-align: center;
+        a{
+            font-size: 30px;
+            font-weight: 400;
+            transition: all linear .3s;
+            color: #D800A6;
+            position: relative;
+            &:hover{
+                color: #87A2FB;
+                &::after{
+                    opacity: 1;
+                    visibility: visible;
+                }
+            }
+            &::after{
+                position: absolute;
+                content: "";
+                height: 2px;
+                width: 100%;
+                left: 50%;
+                bottom: 0;
+                transform: translateX(-50%);
+                background: #87A2FB;
+                opacity: 0;
+                visibility: hidden;
+
+            }
+        }
+    }
+} 
+/* HEADING PART END */ 
+
+/* RECORD ITEM PART START */ 
+#record_item{
+    padding: 60px 0;
+}
+.record_item_main{
+    .record_item_full{
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+        position: relative;
+        background: #EEF1FF;
+        .record_item_heading{
+            padding: 10px 20px;
+            background: #97D2EC;
+        }
+        .record_item_inf{
+            p{
+                padding-left: 30px;
+                font-size: 20px;
+                font-weight: 700;
+            }
+            .link_copy{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 20px 10px;
+                .link{
+                    width: 80%;
+                    background:#87A2FB ;
+                    padding: 10px 10px;
+                    span{
+                        font-size: 16px;
+                    }
+                }
+                .copy{
+                    a{
+                        display: flex;
+                        flex-direction: column;
+                        padding: 5px;
+                        transition: all linear .3s;
+                        border-radius: 5px;
+                        font-weight: 400;
+                        &:hover{
+                            background: #87A2FB;
+                            color: #fff;
+
+                        }
+                    }
+                }
+            }
+        }
+        .sil{
+            position: absolute;
+            top: 10%;
+            right: 0;
+            width: 120px;
+            
+        }
+    }
+}
+/* RECORD ITEM PART END */ 
