@@ -86,6 +86,16 @@
                     }
                 }
             }
+            .bank_btn{
+                padding: 30px 0;
+                button{
+                    padding: 10px 100px;
+                    background: linear-gradient(#5CB8E4,#277BC0);
+                    border: none;
+                    color: #fff;
+                    border-radius: 5px;
+                }
+            }
         }
         .sil{
             position: absolute;

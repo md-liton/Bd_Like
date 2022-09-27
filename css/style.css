@@ -483,6 +483,16 @@ html, body {
   background: #87A2FB;
   color: #fff;
 }
+.record_item_main .record_item_full .record_item_inf .bank_btn {
+  padding: 30px 0;
+}
+.record_item_main .record_item_full .record_item_inf .bank_btn button {
+  padding: 10px 100px;
+  background: linear-gradient(#5CB8E4, #277BC0);
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
 .record_item_main .record_item_full .sil {
   position: absolute;
   top: 10%;
