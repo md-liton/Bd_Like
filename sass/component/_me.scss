@@ -38,14 +38,49 @@
     padding-top: 10px;
 }
 .vip_member_main{
-    .vip_item{
+    .vip_heading{
+        background: #256D85;
+        padding: 0 20px;
         display: flex;
         align-items: center;
-        justify-content: center;
-        gap: 30px;
-        background: #256D85;
-        padding: 10px 0;
-        color: #7DCE13;
+        justify-content: space-between;
+        .vip_item{
+            .vip_item_inf{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                padding: 10px 0;
+                .name{
+                    h4{
+                        font-size: 25px;
+                        font-weight: 700;
+                        color: #7DCE13;
+                    }
+                }
+                .catagori{
+                    h4{
+                        font-size: 25px;
+                        font-weight: 700;
+                        color: #7DCE13;
+                    }
+                }
+            }
+        }
+        .rating{
+            display: flex;
+            gap: 10px;
+            .rating_inf{
+                span{
+                    font-size: 15px;
+                    font-weight: 700;
+                }
+            }
+            .rating_icon{
+                a{
+                    color: #002B5B;
+                }
+            }
+        }
     }
 } 
 /* VIP MEMBER PART END */ 

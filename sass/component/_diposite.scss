@@ -1,0 +1,41 @@
+/* SCREENSHOT PART START */
+#screenshot{
+    background: #EEF1FF;
+    .screenshot_main{
+        .screenshot_item{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 100px;
+            padding: 20px 0;
+            .tittle{
+                h4{
+                    font-size: 30px;
+                    font-weight: 700;
+                }
+            }
+            .img_upload{
+                border: 1px solid #000;
+                border-radius: 5px;
+                padding: 30px 60px;
+                text-align: center;
+                font-size: 50px;
+                p{
+                    font-size: 15px;
+                }
+            }
+        }
+        .diposite_bank_btn{
+            padding: 30px 0;
+            button{
+                padding: 10px 100px;
+                background: linear-gradient(#5CB8E4,#277BC0);
+                border: none;
+                color: #fff;
+                border-radius: 5px;
+            }
+        }
+        
+    }
+}
+/* SCREENSHOT PART END */ 

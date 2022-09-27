@@ -7,3 +7,28 @@
     padding: 80px 0;
 }
 /* BANNER PART END */ 
+
+/* SLIDER PART START */
+#slider{
+    .slider_main{
+        position: relative;
+        .purches{
+            position: absolute;
+            top: 50%;
+            right: 20px;
+            transform: translateY(-50%);
+            button{
+                padding: 10px 40px;
+                background: linear-gradient(#5CB8E4,#277BC0);
+                border: none;
+                border-radius: 50px;
+                a{
+                    color: #fff;
+                    font-size: 15px;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+} 
+/* SLIDER PART END */ 

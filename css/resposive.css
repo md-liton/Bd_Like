@@ -153,9 +153,49 @@
         font-size: 14px;
     }
     /* record part end */
+
+
+     /* SREENSHOT PART START */
+        #screenshot .screenshot_main .screenshot_item .tittle h4 {
+            font-size: 15px;
+        }
+        #screenshot .screenshot_main .screenshot_item {
+            gap: 15px;
+        }
+        #screenshot .screenshot_main .screenshot_item .img_upload {
+            padding: 10px 20px;
+        }
+        /* SREENSHOT PART END */
+
+    /* RECORD PART START */
+    .record_item_main .record_item_full .screenshot_item .item_main .tittle h4 {
+        font-size: 15px;
+    }
+    .record_item_main .record_item_full .screenshot_item .item_main {
+        gap: 10px;
+        padding: 10px 0;
+    }
+    .record_item_main .record_item_full .screenshot_item .item_main .img_upload {
+        padding: 10px 20px;
+        font-size: 35px;
+    }
+    /* RECORD PART END */       
+
 }
 
 @media (max-width: 320px) {
+
+    /* SLIDER PART START */
+    #slider .slider_main .purches button {
+        padding: 5px 20px;
+    }
+    #slider .slider_main .purches button a {
+        font-size: 12px;
+    }
+    /* SLIDER PART END */
+
+
+
     /* Profile page start */
     .me_head_main .img_number .profile {
         min-width: 60px;
@@ -204,8 +244,45 @@
     /* vip part end */
 
 
-    /* record part start */
+    /* SREENSHOT PART START */
+    #screenshot .screenshot_main .screenshot_item .tittle h4 {
+        font-size: 15px;
+    }
+    #screenshot .screenshot_main .screenshot_item {
+        gap: 15px;
+    }
+    #screenshot .screenshot_main .screenshot_item .img_upload {
+        padding: 10px 20px;
+    }
+    /* SREENSHOT PART END */
 
-    /* record part end */
+    /* RECORD PART START */
+    .record_item_main .record_item_full .screenshot_item .item_main .tittle h4 {
+        font-size: 15px;
+    }
+    .record_item_main .record_item_full .screenshot_item .item_main {
+        gap: 10px;
+        padding: 10px 0;
+    }
+    .record_item_main .record_item_full .screenshot_item .item_main .img_upload {
+        padding: 10px 20px;
+        font-size: 35px;
+    }
+    /* RECORD PART END */
+
+    /* me part start */
+    .vip_member_main .vip_heading {
+        padding: 0 5px;
+    }
+    .vip_member_main .vip_heading .vip_item .vip_item_inf .name h4 {
+        font-size: 15px;
+    }
+    .vip_member_main .vip_heading .vip_item .vip_item_inf .catagori h4 {
+        font-size: 15px;
+    }
+    .vip_member_main .vip_heading .rating {
+        padding-bottom: 5px;
+    }
+    /* me part end */
 
 }

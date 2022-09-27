@@ -67,6 +67,29 @@ html, body {
 }
 
 /* BANNER PART END */
+/* SLIDER PART START */
+#slider .slider_main {
+  position: relative;
+}
+#slider .slider_main .purches {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+}
+#slider .slider_main .purches button {
+  padding: 10px 40px;
+  background: linear-gradient(#5CB8E4, #277BC0);
+  border: none;
+  border-radius: 50px;
+}
+#slider .slider_main .purches button a {
+  color: #fff;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+/* SLIDER PART END */
 /* LOG IN PART START */
 .login_main {
   padding: 80px 0;
@@ -443,61 +466,41 @@ html, body {
 }
 
 .record_item_main .record_item_full {
-  padding-bottom: 30px;
-  margin-bottom: 30px;
-  position: relative;
   background: #EEF1FF;
 }
-.record_item_main .record_item_full .record_item_heading {
-  padding: 10px 20px;
-  background: #97D2EC;
+.record_item_main .record_item_full .screenshot_item {
+  margin-bottom: 15px;
 }
-.record_item_main .record_item_full .record_item_inf p {
-  padding-left: 30px;
-  font-size: 20px;
-  font-weight: 700;
-}
-.record_item_main .record_item_full .record_item_inf .link_copy {
+.record_item_main .record_item_full .screenshot_item .item_main {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 20px 10px;
+  justify-content: center;
+  gap: 100px;
+  padding: 20px 0;
 }
-.record_item_main .record_item_full .record_item_inf .link_copy .link {
-  width: 80%;
-  background: #87A2FB;
-  padding: 10px 10px;
+.record_item_main .record_item_full .screenshot_item .item_main .tittle h4 {
+  font-size: 30px;
+  font-weight: 700;
 }
-.record_item_main .record_item_full .record_item_inf .link_copy .link span {
-  font-size: 16px;
-}
-.record_item_main .record_item_full .record_item_inf .link_copy .copy a {
-  display: flex;
-  flex-direction: column;
-  padding: 5px;
-  transition: all linear 0.3s;
+.record_item_main .record_item_full .screenshot_item .item_main .img_upload {
+  border: 1px solid #000;
   border-radius: 5px;
-  font-weight: 400;
+  padding: 30px 60px;
+  text-align: center;
+  font-size: 50px;
 }
-.record_item_main .record_item_full .record_item_inf .link_copy .copy a:hover {
-  background: #87A2FB;
-  color: #fff;
+.record_item_main .record_item_full .screenshot_item .item_main .img_upload p {
+  font-size: 15px;
 }
-.record_item_main .record_item_full .record_item_inf .bank_btn {
+.record_item_main .record_item_full .screenshot_item .diposite_bank_btn {
   padding: 30px 0;
 }
-.record_item_main .record_item_full .record_item_inf .bank_btn button {
+.record_item_main .record_item_full .screenshot_item .diposite_bank_btn button {
   padding: 10px 100px;
   background: linear-gradient(#5CB8E4, #277BC0);
   border: none;
   color: #fff;
   border-radius: 5px;
-}
-.record_item_main .record_item_full .sil {
-  position: absolute;
-  top: 10%;
-  right: 0;
-  width: 120px;
 }
 
 /* RECORD ITEM PART END */
@@ -538,14 +541,39 @@ html, body {
   padding-top: 10px;
 }
 
-.vip_member_main .vip_item {
+.vip_member_main .vip_heading {
+  background: #256D85;
+  padding: 0 20px;
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 30px;
-  background: #256D85;
+  justify-content: space-between;
+}
+.vip_member_main .vip_heading .vip_item .vip_item_inf {
+  display: flex;
+  align-items: center;
+  gap: 10px;
   padding: 10px 0;
+}
+.vip_member_main .vip_heading .vip_item .vip_item_inf .name h4 {
+  font-size: 25px;
+  font-weight: 700;
   color: #7DCE13;
+}
+.vip_member_main .vip_heading .vip_item .vip_item_inf .catagori h4 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #7DCE13;
+}
+.vip_member_main .vip_heading .rating {
+  display: flex;
+  gap: 10px;
+}
+.vip_member_main .vip_heading .rating .rating_inf span {
+  font-size: 15px;
+  font-weight: 700;
+}
+.vip_member_main .vip_heading .rating .rating_icon a {
+  color: #002B5B;
 }
 
 /* VIP MEMBER PART END */
@@ -691,4 +719,41 @@ html, body {
   border-radius: 5px;
 }
 
-/* BANK NAME PART END *//*# sourceMappingURL=style.css.map */
+/* BANK NAME PART END */
+/* SCREENSHOT PART START */
+#screenshot {
+  background: #EEF1FF;
+}
+#screenshot .screenshot_main .screenshot_item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  padding: 20px 0;
+}
+#screenshot .screenshot_main .screenshot_item .tittle h4 {
+  font-size: 30px;
+  font-weight: 700;
+}
+#screenshot .screenshot_main .screenshot_item .img_upload {
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 30px 60px;
+  text-align: center;
+  font-size: 50px;
+}
+#screenshot .screenshot_main .screenshot_item .img_upload p {
+  font-size: 15px;
+}
+#screenshot .screenshot_main .diposite_bank_btn {
+  padding: 30px 0;
+}
+#screenshot .screenshot_main .diposite_bank_btn button {
+  padding: 10px 100px;
+  background: linear-gradient(#5CB8E4, #277BC0);
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+/* SCREENSHOT PART END *//*# sourceMappingURL=style.css.map */
