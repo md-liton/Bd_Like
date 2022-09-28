@@ -1,3 +1,45 @@
+/* BANK NAME PART START */
+#bank_name{
+   .bank_name_main{
+    .choose{
+        .choose_main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            .choose_file{
+                padding: 10px 20px 0 20px;
+                border: 1px solid #000;
+                transition: all linear .3s;
+                p{
+                    font-size: 20px;
+                    font-weight: 700;
+                }
+                &:hover{
+                    color: #fff;
+                    background:linear-gradient(#5CB8E4,#277BC0);
+                }
+            }
+            .no_choose{
+                padding: 10px 20px 0 20px;
+                border: 1px solid #000;
+                transition: all linear .3s;
+                p{
+                    font-size: 20px;
+                    font-weight: 700;
+                }
+                &:hover{
+                    color: #fff;
+                    background:linear-gradient(#5CB8E4,#277BC0);
+                }
+            }
+        }
+    }
+
+   } 
+}
+/* BANK NAME PART END */ 
+
 /* SCREENSHOT PART START */
 #screenshot{
     background: #EEF1FF;
